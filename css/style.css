@@ -1,0 +1,369 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    position: fixed;
+    top: 23px;
+    left: 10px;
+    float: left;
+
+}
+.nav{
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    margin-left: 38%;
+    float: right;
+}
+.title img{
+    width: 60px;
+    float: left;
+    height: 60px;
+}
+.title h1{
+    font-family: 'Cinzel', serif;
+    padding-left: 5px;
+    font-size: 40px;
+    color: white;
+    display: inline;
+}
+.nav li, a{
+    display: inline;
+}
+.nav a{
+    font-family: 'Cinzel', serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 26px;
+    padding: 10px;
+    padding-right: 25px;
+    text-decoration: none;
+    
+}
+.nav a:hover{
+    color: rgb(255, 77, 0);
+    text-shadow:0px 0px 30px #fa5800;
+    transition: all 0.2s ease-in;
+}
+
+#Home{
+    width: 100%;
+    height: 800px;
+}
+.container{
+    position: relative;
+    margin: 50px;
+
+    
+}
+.mainheading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+    height: 500px;
+}
+.mainheading h1{
+    font-family: 'Cinzel', serif;
+    display: block;
+    clear: both;
+    font-size: 5vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.mainheading h3{
+    font-family: 'Cinzel', serif;
+    padding: 10px;
+    color: rgb(255, 77, 0);
+    font-size: 35px;
+    border: 2px solid white;
+    border-radius: 9px;
+}
+.highlight{
+    color: rgb(255, 77, 0);
+    padding: 8px;
+}
+.mainheading h3:hover{
+    color: rgb(255, 77, 0);
+    text-shadow:0px 0px 30px #fa5800;
+    transition: all 0.2s ease-in;
+    background-color: rgb(6, 1, 1);
+    border: 2px solid rgb(255, 77, 0);
+    border-radius: 9px;
+}
+.mainpara p{
+    padding: 20px;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Cinzel', serif;
+}
+#Courses{
+    width: 100%;
+    height: 800px;
+}
+.course-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.crtitle h1{
+    padding-top: 70px;
+    color: white;
+    font-size: 3vw;
+    text-shadow:0px 0px 30px #fa5800;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: inline-block;
+    background-color: white;
+    margin: 50px;
+    width: 300px;
+    height: 500px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    
+}
+.box h3{
+    padding-top: 40px ;
+    padding-bottom: 20px;
+    text-align: center;
+    color:  rgb(0, 0, 0);
+    text-shadow:0px 0px 30px #fa5800;
+    font-size: 2vw;
+    font-family: 'Cinzel', serif;
+}
+.box li{
+    text-align: center;
+    list-style-type: none;
+    color:  rgb(255, 77, 0);
+    font-size: 2vw;
+    font-family: 'Cinzel', serif;
+}
+.box h2{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Cinzel', serif;
+}
+.box button{
+    background-color: #fa5800;
+    color: white;
+    margin-top: 20px;
+    margin-left: 39px;
+    padding: 5px 50px;
+    border-radius: 9px;
+    font-size: 2vw;
+    font-family: 'Cinzel', serif;
+}
+.box button:hover{
+    color: rgb(255, 77, 0);
+    text-shadow:0px 0px 30px #fa5800;
+    transition: all 0.2s ease-in;
+    background-color: rgb(6, 1, 1);
+    border: 2px solid rgb(255, 77, 0);
+    border-radius: 9px;
+    box-shadow:0px 0px 30px #fa5800;
+}
+.box:hover{
+    box-shadow:0px 0px 30px #fa5800;
+    border: 2px solid rgb(255, 77, 0);
+    border-radius: 9px;
+
+}
+.highlight1 {
+    color: rgb(255, 77, 0);
+}
+.rtitle{
+    padding: 65px 0px 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 2vw;
+    text-shadow:0px 0px 30px #fa5800;
+}
+#Register{
+    width: 100%;
+    height: 800px;
+}
+.form {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3));
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin-left: 22%;
+    margin-bottom: 30%;
+    padding: 30px;
+}
+.form:hover{
+    box-shadow:0px 0px 30px #fa5800;
+    border: 2px solid rgb(255, 77, 0);
+    border-radius: 9px;
+}
+form{
+    display: flex;
+    flex-direction: column; 
+
+}
+.form label{
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    padding-left: 65px;
+    color: white;
+    text-align: left;
+}
+.form input{
+    margin-left: 65px;
+    align-items: center;
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.form select{
+    margin-left: 65px;
+    align-items: center;
+    width: 80%;
+    height: 30px;
+}
+.form input[type="submit"]{
+    margin-top: 30px;
+    background-color: #fa5800;
+    color: white;
+    border-radius: 9px;
+    font-size: 2vw;
+    height: 40px;
+    font-family: 'Cinzel', serif;
+}
+form input[type="submit"]:hover{
+    color: rgb(255, 77, 0);
+    text-shadow:0px 0px 30px #fa5800;
+    transition: all 0.2s ease-in;
+    background-color: rgb(6, 1, 1);
+    border: 2px solid rgb(255, 77, 0);
+    border-radius: 9px;
+    box-shadow:0px 0px 30px #fa5800;
+}
+#About{
+    width: 100%;
+    height: 900px;
+}
+.Atitle{
+    padding: 65px 0px 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 2vw;
+    text-shadow:0px 0px 30px #fa5800;
+}
+.about{
+    margin-top: 40px;
+    position: relative;
+    margin-left: 60px;
+    width: 90%;
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5));
+    border: 2px solid black;
+}
+
+.about:hover{
+    box-shadow:0px 0px 30px #fa5800;
+    border: 2px solid rgb(255, 77, 0);
+    border-radius: 9px;
+}
+.about img{
+    float: left;
+    width: 250px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 55px;
+    box-shadow:0px 0px 30px #fa5800;
+    border: 2px solid rgb(255, 77, 0);
+    border-radius: 9px;
+
+}
+.about h1{
+    display: inline;
+    position: absolute;
+    left: 42%;
+    top: 50px;
+    color: #fa5800;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    font-family: 'Cinzel', serif;
+}
+.about img:hover{
+    height: 450px;
+    width: 500px;
+}
+.aboutContent{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 32%;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+
+}
+.aboutContent p{
+    padding-top: 110px;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+.map{
+    position: absolute;
+    right: 170px;
+    top: 100px;
+    width: 200px;
+    height: 300px;
+}
+.map iframe{
+    width: 300px;
+    height: 250px;
+    margin-top: 10px;
+    box-shadow:0px 0px 30px #fa5800;
+    border: 2px solid rgb(255, 77, 0);
+    border-radius: 9px;
+}
+.maptitle h1{
+    display: inline;
+    position: absolute;
+    left: 72%;
+    top: 50px;
+    color: #fa5800;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    font-family: 'Cinzel', serif;
+}
+.maptitle i{
+    padding-right: 5px;
+    font-size: 25px;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: darkorange;
+}
+.footer h1{
+    color: white;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 2vw;
+    padding-top: 30px;
+}
